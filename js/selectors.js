@@ -1,6 +1,9 @@
 $(document).ready(
   
-function() {
-$("#text").append("this is so freaking cool.");
+function paragraphSelector() {
+  return $('p');
+}
 
-});
+function lastImageSelector(){}
+
+);
